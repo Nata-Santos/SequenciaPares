@@ -16,15 +16,13 @@ namespace Sequenciapares
             numeroCorreto = Int32.TryParse(Console.ReadLine(), out numero);
 
 
-
             if (numeroCorreto)
             {
-                Console.WriteLine($"{inicio}");
 
-                while (inicio <= numero - 2)
+                while (inicio <= numero)
                 {
                     inicio = inicio + 2;
-                    Console.WriteLine($"{inicio}");
+                    Console.WriteLine($"{inicio-2}");
                 }
             }
             else if (!numeroCorreto)

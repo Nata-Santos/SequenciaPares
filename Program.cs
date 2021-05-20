@@ -21,8 +21,8 @@ namespace Sequenciapares
 
                 while (inicio <= numero)
                 {
+                    Console.WriteLine(inicio);
                     inicio = inicio + 2;
-                    Console.WriteLine($"{inicio-2}");
                 }
             }
             else if (!numeroCorreto)
